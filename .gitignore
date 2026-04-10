@@ -43,3 +43,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# API Keys and Secrets - NEVER COMMIT THESE!
+# If you need to use real API keys, create a separate file
+# and add it here to prevent accidental commits
+**/api_keys.dart
+**/secrets.dart
+**/.env
+**/.env.local
